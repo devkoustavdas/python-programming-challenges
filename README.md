@@ -5,8 +5,8 @@ A comprehensive collection of Python exercises and solutions for beginners to ad
 
 | **#** | **Question**                                       | **Concepts Covered**  |
 | ----- | -------------------------------------------------- | --------------------- |
-| 1     | Check if a number is divisible by 3 and 5          | Conditionals          |
-| 2     | Count frequency of each character in a string      | Loops, dictionaries   |
+| 1     | Check if a number is divisible by 13 but are not a multiple of 5  | Conditionals          |
+| 2     | Count frequency of each character in a string & sort them         | Loops, dictionaries   |
 | 3     | Count number of words in a sentence                | String split, dict    |
 | 4     | Convert decimal number to binary                   | Loops, math           |
 | 5     | Compute factorial of a number                      | Loops/recursion       |
