@@ -1,75 +1,128 @@
-# Python Programming Challenges
-A comprehensive collection of Python exercises and solutions for beginners to advanced learners.
+# Python Programming Challenge Repository (Beginner → Advanced)
 
-## **LEVEL 1 – Fundamentals & Core Logic (Beginner)**
+Welcome to a curated roadmap of Python exercises designed to take you from *beginner* to *advanced*, one challenge at a time.
+Python Documentation: [https://docs.python.org/3/](https://docs.python.org/3/)
 
-| **#** | **Question**                                       | **Concepts Covered**  |
-| ----- | -------------------------------------------------- | --------------------- |
-| 1     | Check if a number is divisible by 13 but are not a multiple of 5  | Conditionals          |
-| 2     | Count frequency of each character in a string & sort them         | Loops, dictionaries   |
-| 3     | Count number of words in a sentence                | String split, dict    |
-| 4     | Convert decimal number to binary                   | Loops, math           |
-| 5     | Compute factorial of a number                      | Loops/recursion       |
-| 6     | Anagram checker using frequency dicts              | Dictionaries          |
-| 7     | Robot movement: compute final position & distance  | Parsing, math, tuples |
-| 8     | Countdown to your birthday (in days/hours)         | `datetime`            |
-| 9     | Convert string to lowercase, remove punctuation    | String manipulation   |
-| 10    | Program to find if string is a palindrome          | String slicing        |
-| 11    | List comprehension for squares of even numbers     | List comprehension    |
-| 12    | Check Armstrong number                             | Math, loops           |
+**Who is this for?**
+
+* Students looking to *level up* their core Python
+* Developers practicing for *coding interviews*
+* Bootcampers building *project portfolios*
+* Anyone who wants to improve in a **structured, concept-rich way**
 
 ---
 
-## **LEVEL 2 – Functions, Classes & 2D Data (Intermediate)**
+## LEVEL 1 – Fundamentals & Core Logic (Beginner)
 
-| **#** | **Question**                                                        | **Concepts Covered**     |
-| ----- | ------------------------------------------------------------------- | ------------------------ |
-| 13    | Create a `BankAccount` class with deposit, withdraw, and transfer   | OOP, methods             |
-| 14    | Build a 2D matrix where `i*j` is stored in [i][j]                   | Nested lists             |
-| 15    | Multiply two 2D matrices                                            | Nested loops, math       |
-| 16    | Generate a password with at least 1 upper, lower, digit, and symbol | Random, string           |
-| 17    | Basic calculator supporting +, -, *, /                              | Functions                |
-| 18    | Simulate a contact book (add/delete/view/update)                    | List of dicts            |
-| 19    | Grocery billing system with receipt                                 | Dictionaries, formatting |
-| 20    | Hotel room booking CLI with availability check                      | OOP + data structure     |
-| 21    | Rock-paper-scissors game (CLI)                                      | Loops, logic             |
-| 22    | Create an invoice with list of items and prices                     | Loops, dicts, format     |
+> Focus: String, loops, conditionals, basic functions, math, lists, dicts
 
----
-
-## **LEVEL 3 – File I/O, Pandas, Games, Real-world Logic (Upper Intermediate)**
-
-| **#** | **Question**                                                 | **Concepts Covered**     |
-| ----- | ------------------------------------------------------------ | ------------------------ |
-| 23    | `HandCricket`: Toss + innings + score tracking               | Game logic, conditions   |
-| 24    | `Hangman`: Random word from fruits/vegetables                | Loops, input, validation |
-| 25    | Scientific calculator with history in a text file            | File I/O, math           |
-| 26    | Given `sales.csv`, compute top 3 products by revenue in 2025 | Pandas                   |
-| 27    | File-based resume builder CLI tool                           | File I/O, formatting     |
-| 28    | CSV Reader: Parse and clean missing data                     | Pandas                   |
-| 29    | Build a BMI calculator and log to file                       | Functions, files         |
-| 30    | Extract email domains from a CSV file                        | String split, pandas     |
-| 31    | Password checker: log failed attempts to file                | Regex, file writing      |
+| **#** | **Problem**                                          | **Concepts Covered**     |
+| ----- | ---------------------------------------------------- | ------------------------ |
+| 1     | Check if number is divisible by 13 but not by 5      | `if`, `%`, logic         |
+| 2     | Count frequency of each character in a string & sort | Loops, `dict`, sorting   |
+| 3     | Count frequency of words in a sentence               | `.split()`, `dict`, text |
+| 4     | Convert decimal to binary                            | Loops, math              |
+| 5     | Compute factorial (loop/recursion)                   | Recursion, math          |
+| 6     | Anagram checker (using freq dict)                    | Dictionaries, sets       |
+| 7     | Simulate robot's movement in 2D plane                | Parsing, tuples, `abs()` |
+| 8     | Countdown to next birthday                           | `datetime`, timedelta    |
+| 9     | Squares of even numbers using list comprehension     | List comprehension       |
+| 10    | Check if a string is a palindrome                    | String slicing           |
+| 11    | Check Armstrong number                               | Loops, math              |
+| 12    | Evaluate formula `Q = √((2×C×D)/H)` from inputs      | Math, input parsing      |
+| 13    | Reverse words in a sentence                          | `.split()`, slicing      |
+| 14    | Find all prime numbers up to `N`                     | Loops, conditionals      |
+| 15    | Calculate LCM & HCF                                  | Loops, math              |
+| 16    | Replace vowels in a string with `*`                  | Loop, string replace     |
 
 ---
 
-## **LEVEL 4 – Projects, Class Composition, Analytics (Advanced)**
+## LEVEL 2 – Functions, Classes & 2D Data (Intermediate)
 
-| **#** | **Question**                                             | **Concepts Covered**                   |
-| ----- | -------------------------------------------------------- | -------------------------------------- |
-| 32    | Refactor `HandCricket` with `_play_inning` method        | Code refactoring, OOP                  |
-| 33    | Invoice Generator with client/services, random IDs, tax  | OOP, Streamlit, `@property`, `__str__` |
-| 34    | Freelance CRM: Manage clients, track revenue             | OOP, class composition                 |
-| 35    | Read employee data and classify junior/senior by exp     | Pandas, classification                 |
-| 36    | Create dashboard from salary and education CSV           | Analysis, plotting                     |
-| 37    | Implement CLI-based task manager with file-based storage | CLI, classes                           |
-| 38    | Create a text-based game engine                          | Composition, events                    |
-| 39    | Build your own Excel: parse formulas from input          | Regex, string ops                      |
-| 40    | Read .txt log files and generate analytics               | Text parsing, dict ops                 |
+> Focus: Functions, modular design, nested lists, CLI mini-apps
 
+| **#** | **Problem**                                  | **Concepts Covered**      |
+| ----- | -------------------------------------------- | ------------------------- |
+| 17    | Create 2D matrix where [i][j] = i×j          | Nested lists              |
+| 18    | Multiply 2 matrices manually                 | Loops, logic              |
+| 19    | Generate strong password                     | `random`, string, loops   |
+| 20    | Build a contact book with CLI                | List of dicts             |
+| 21    | Grocery billing with discounts and receipt   | Loops, `dict`, formatting |
+| 22    | Simulate a hotel room booking                | Basic OOP, CLI            |
+| 23    | Rock-paper-scissors game                     | CLI game, logic           |
+| 24    | Bank Account with deposit/withdraw/PIN-check | OOP methods               |
+| 25    | Random password validator                    | Loops, conditions         |
+| 26    | Replace words in a paragraph                 | String replacement        |
+| 27    | Frequency plot of letters (text-based)       | Loops, visual format      |
+| 28    | Recursive Fibonacci generator                | Recursion                 |
+| 29    | Build your own mini-dictionary               | Dict + file save          |
+| 30    | `math_quiz.py`: random math game             | Random, logic, score      |
 
-## Why This Repository?
-- Covers **all major Python fundamentals**  
-- Includes **OOP, file handling, data structures, algorithms, NumPy, pandas, and mini-projects**  
-- Structured from **Level 1 to Level 4** for progressive learning  
-- Suitable for **college assignments, coding interviews, hackathons, and personal practice**
+---
+
+## LEVEL 3 – File I/O, Games, Real-world Logic (Upper Intermediate)
+
+> Focus: File I/O, pandas, CLI games, input validation
+
+| **#** | **Problem**                              | **Concepts Covered**     |
+| ----- | ---------------------------------------- | ------------------------ |
+| 31    | Create an invoice with items & tax       | Loops, dicts, formatting |
+| 32    | Hangman game with easy/medium words      | CLI game logic           |
+| 33    | HandCricket: toss → innings → result     | Game logic, loop         |
+| 34    | Scientific calculator with history log   | Math, error handling     |
+| 35    | BMI calculator + logs to file            | Math, file I/O           |
+| 36    | Transaction logger                       | File append, formatting  |
+| 37    | Regex password strength checker          | `re` module              |
+| 38    | Read/write contact book to file          | File I/O                 |
+| 39    | Parse `.csv` and clean missing data      | `pandas`                 |
+| 40    | Analyze salary dataset: mean, sort, plot | Pandas summary           |
+| 41    | Sort top 5 earning people from CSV       | Pandas sorting           |
+| 42    | Write JSON export of nested dicts        | `json`, file             |
+
+---
+
+## LEVEL 4 – Projects, Analytics, API, CLI Tools (Advanced)
+
+> Focus: Real use cases, APIs, OOP+modular architecture
+
+| **#** | **Problem**                                      | **Concepts Covered**   |
+| ----- | ------------------------------------------------ | ---------------------- |
+| 43    | Build a fully OOP invoice system for freelancers | Classes, session state |
+| 44    | Email validation and CLI-based signup            | Regex, validation      |
+| 45    | Income tax calculator CLI tool                   | Slabs, conditions      |
+| 46    | Fetch data from OpenWeather API                  | API calls, `requests`  |
+| 47    | Expense tracker with monthly summary             | File, classes, summary |
+| 48    | Convert `.csv` sales to JSON report              | Pandas + JSON          |
+| 49    | CLI Tool: Merge 2 files line-by-line             | File reading           |
+| 50    | Create a quiz app with score and levels          | OOP, state mgmt        |
+| 51    | Income predictor using regression                | `sklearn`, pandas      |
+| 52    | Sentiment analysis on product reviews            | NLP, `TextBlob`        |
+
+---
+
+### How to Use this Repo
+
+* Pick a **level based on your comfort**
+* Each folder contains a Python file + README
+* **Try it yourself before seeing solution**
+* Fork & submit your PR to add your own variant!
+
+### Keywords
+
+> `python beginner exercises`, `python coding problems`, `oop python practice`, `interview prep python`, `real world python mini projects`, `file io pandas python`, `python games and utilities`
+
+---
+
+## Recommended Tools to Pair
+
+* Jupyter Notebook / VS Code / Spyder
+* Python ≥ 3.9
+* `pandas`, `requests`, `textblob`, `random`, `math`
+
+---
+
+## Contribute
+
+* Want to add more problems?
+* Found a bug in a solution?
+* Submit a Pull Request 🚀
