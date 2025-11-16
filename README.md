@@ -43,10 +43,10 @@ Python Documentation: [https://docs.python.org/3/](https://docs.python.org/3/)
 
 | **#** | **Problem**                                  | **Concepts Covered**      | Status |
 | ----- | -------------------------------------------- | ------------------------- | ------ |
-| 17    | Create 2D matrix where [i][j] = i×j          | Nested lists              | Done  |
-| 18    | Multiply 2 matrices manually                 | Loops, logic              | Done  |
+| 17    | Create 2D matrix where [i][j] = i×j          | Numpy Array               | Done  |
+| 18    | Multiply 2 matrices manually                 | Loops, logic, Numpy Array | Done  |
 | 19    | Generate strong password                     | `random`, string, loops   | Done  |
-| 20    | Build a contact book with CLI                | List of dicts             | Done |
+| 20    | Build a contact book with CLI                | Dict of dicts, OOP        | Done  |
 | 21    | Grocery billing with discounts and receipt   | Loops, `dict`, formatting | Not yet |
 | 22    | Simulate a hotel room booking                | Basic OOP, CLI            | Done  |
 | 23    | Rock-paper-scissors game                     | CLI game, logic           | Not yet |
@@ -56,7 +56,7 @@ Python Documentation: [https://docs.python.org/3/](https://docs.python.org/3/)
 | 27    | Frequency plot of letters (text-based)       | Loops, visual format      | Not yet |
 | 28    | Recursive Fibonacci generator                | Recursion                 | Not yet |
 | 29    | Build your own mini-dictionary               | Dict + file save          | Not yet |
-| 30    | `math_quiz.py`: random math game             | Random, logic, score      | Not yet |
+| 30    | Random Quick math game                       | Random, logic, score      | Not yet |
 
 ---
 
