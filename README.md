@@ -12,93 +12,95 @@ Python Documentation: [https://docs.python.org/3/](https://docs.python.org/3/)
 
 ---
 
-## LEVEL 1 – Fundamentals & Core Logic (Beginner)
+## LEVEL 1 – Fundamentals & Core Logic *(Beginner)*
 
-> Focus: String, loops, conditionals, basic functions, math, lists, dicts
+> *Focus:* Strings, math, loops, lists, dicts, conditionals
 
-| **#** | **Problem**                                          | **Concepts Covered**     | Status |
-| ----- | ---------------------------------------------------- | ------------------------ | ------ |
-| 1     | Check if number is divisible by 13 but not by 5      | `if`, `%`, `join`        | Done |
-| 2     | Count frequency of each character in a string & sort | Loops, `dict`, sorting   | Done |
-| 3     | Count frequency of words in a sentence               | `.split()`, `dict`, text | Done |
-| 4     | Convert decimal to binary                            | Loops, math              | Done |
-| 5     | Compute factorial (loop/recursion)                   | Recursion, math          | Done |
-| 6     | Anagram checker (using freq dict)                    | Dictionaries, sets       | Done |
-| 7     | Simulate robot's movement in 2D plane                | Parsing, tuples, `abs()` | Done |
-| 8     | Countdown to next birthday                           | `datetime`, timedelta    | Done |
-| 9     | Squares of even numbers using list comprehension     | List comprehension       | Done |
-| 10    | Check if a string is a palindrome                    | String slicing           | Done |
-| 11    | Check Armstrong number                               | Loops, math              | Done |
-| 12    | Evaluate formula `Q = √((2×C×D)/H)` from inputs      | Math, input parsing      | Done |
-| 13    | Reverse words in a sentence                          | `.split()`, slicing      | Not yet |
-| 14    | Find all prime numbers up to `N`                     | Loops, conditionals      | Not yet |
-| 15    | Calculate LCM & HCF                                  | Loops, math              | Done |
-| 16    | Replace vowels in a string with `#`                  | Loop, string replace     | Done |
-
----
-
-## LEVEL 2 – Functions, Classes & 2D Data (Intermediate)
-
-> Focus: Functions, modular design, nested lists, CLI mini-apps
-
-| **#** | **Problem**                                  | **Concepts Covered**      | Status |
-| ----- | -------------------------------------------- | ------------------------- | ------ |
-| 17    | Create 2D matrix where [i][j] = i×j          | Numpy Array               | Done  |
-| 18    | Multiply 2 matrices manually                 | Loops, logic, Numpy Array | Done  |
-| 19    | Generate strong password                     | `random`, string, loops   | Done  |
-| 20    | Build a contact book with CLI                | Dict of dicts, OOP        | Done  |
-| 21    | Grocery billing with discounts and receipt   | Loops, `dict`, formatting | Not yet |
-| 22    | Simulate a hotel room booking                | Basic OOP, CLI            | Done  |
-| 23    | Rock-paper-scissors game                     | CLI game, logic           | Not yet |
-| 24    | Bank Account with deposit/withdraw/PIN-check | OOP methods               | Done  |
-| 25    | Random password validator                    | Loops, conditions         | Not yet |
-| 26    | Replace words in a paragraph                 | String replacement        | Not yet |
-| 27    | Frequency plot of letters (text-based)       | Loops, visual format      | Not yet |
-| 28    | Recursive Fibonacci generator                | Recursion                 | Not yet |
-| 29    | Build your own mini-dictionary               | Dict + file save          | Not yet |
-| 30    | Random Quick math game                       | Random, logic, score      | Not yet |
+| #  | Problem Description                                  | Concepts Covered         | Status    |
+| -- | ---------------------------------------------------- | ------------------------ | --------- |
+| 1  | Check if number is divisible by 13 but not 5         | `if`, `%`, `and`, input  | ✅ Done    |
+| 2  | Count frequency of each character in a string & sort | Loops, `dict`, sorting   | ✅ Done    |
+| 3  | Count frequency of words in a sentence               | `.split()`, `dict`, loop | ✅ Done    |
+| 4  | Convert decimal to binary manually                   | Math, loop, string logic | ✅ Done    |
+| 5  | Check if a string is a palindrome                    | String slicing           | ✅ Done    |
+| 6  | Squares of even numbers using list comprehension     | List comprehension       | ✅ Done    |
+| 7  | Countdown to next birthday                           | `datetime`, `timedelta`  | ✅ Done    |
+| 8  | Check Armstrong number                               | Math, loop, power op     | ✅ Done    |
+| 9  | Reverse words in a sentence                          | `.split()`, slicing      | ❌ Not Yet |
+| 10 | Replace vowels in a string with `#`                  | Loop, string replace     | ✅ Done    |
+| 11 | Find all prime numbers up to `N`                     | Loops, nested `if`       | ❌ Not Yet |
+| 12 | Compute factorial (loop and recursion)               | `for`, `def`, recursion  | ✅ Done    |
+| 13 | Evaluate formula: `Q = √((2×C×D)/H)` from inputs     | Math, user input         | ✅ Done    |
+| 14 | Anagram checker (using freq dict)                    | Dict, sets, sorting      | ✅ Done    |
+| 15 | Calculate LCM & HCF of two numbers                   | Math, GCD, loops         | ✅ Done    |
+| 16 | Simulate robot movement in 2D plane with directions  | Tuples, `abs()`, loop    | ✅ Done    |
+| 17 | Run-Length Encoder (Convert aaabbccc → a3b2c3)       | String compression, logic| ✅ Done    |
 
 ---
 
-## LEVEL 3 – File I/O, Games, Real-world Logic (Upper Intermediate)
+## LEVEL 2 – Functions, 2D Data & CLI Tools *(Intermediate)*
 
-> Focus: File I/O, pandas, CLI games, input validation
+> *Focus:* Functions, nested data, CLI interfaces, intro to OOP
 
-| **#** | **Problem**                              | **Concepts Covered**     |
-| ----- | ---------------------------------------- | ------------------------ |
-| 31    | Create an invoice with items & tax       | Loops, dicts, formatting |
-| 32    | Hangman game with easy/medium words      | CLI game logic           |
-| 33    | HandCricket: toss → innings → result     | Game logic, loop         |
-| 34    | Scientific calculator with history log   | Math, error handling     |
-| 35    | BMI calculator + logs to file            | Math, file I/O           |
-| 36    | Transaction logger                       | File append, formatting  |
-| 37    | Regex password strength checker          | `re` module              |
-| 38    | Read/write contact book to file          | File I/O                 |
-| 39    | Parse `.csv` and clean missing data      | `pandas`                 |
-| 40    | Analyze salary dataset: mean, sort, plot | Pandas summary           |
-| 41    | Sort top 5 earning people from CSV       | Pandas sorting           |
-| 42    | Write JSON export of nested dicts        | `json`, file             |
-| 43    | Replace all duplicate char with `#`      | Two pointers, String     |
-| 44    | Exhaustive Search method to get the range of minima | Math |
+| #  | Problem Description                                  | Concepts Covered           | Status    |
+| -- | ---------------------------------------------------- | -------------------------- | --------- |
+| 1  | Create 2D matrix where [i][j] = i×j                  | Nested loops, 2D list      | ✅ Done    |
+| 2  | Multiply 2 matrices manually                         | Loops, nested list         | ✅ Done    |
+| 3  | Generate strong password                             | `random`, string, loop     | ✅ Done    |
+| 4  | Rock-paper-scissors CLI game                         | CLI loop, random choice    | ❌ Not Yet |
+| 5  | Grocery billing with discounts + receipt generator   | Loops, dict, formatting    | ❌ Not Yet |
+| 6  | Contact book (add/search/delete)                     | Dict of dicts, CLI menu    | ✅ Done    |
+| 7  | Hotel room booking simulation                        | OOP, methods               | ✅ Done    |
+| 8  | Replace words in paragraph                           | `.replace()`, string logic | ❌ Not Yet |
+| 9  | Bank Account class with deposit, withdraw, PIN check | OOP (encapsulation)        | ✅ Done    |
+| 10 | Frequency plot of letters in a sentence              | ASCII art, count, loop     | ❌ Not Yet |
+| 11 | Recursive Fibonacci generator                        | `recursion`, math          | ❌ Not Yet |
+| 12 | Build a mini-dictionary CLI tool                     | Dict, file I/O             | ❌ Not Yet |
+| 13 | Validate random password rules                       | Conditions, loop           | ❌ Not Yet |
+| 14 | Quick math game (timer & scoring)                    | Game logic, random         | ✅ Done    |
+| 15 | Analyze Sales Numbers using `pandas`                 | `pandas`, summarization    | ✅ Done    |
 
 ---
 
-## LEVEL 4 – Projects, Analytics, API, CLI Tools (Advanced)
+## LEVEL 3 – File I/O, Real-world Logic & Games *(Upper Intermediate)*
 
-> Focus: Real use cases, APIs, OOP+modular architecture
+> *Focus:* File handling, validation, pandas, JSON, games
 
-| **#** | **Problem**                                      | **Concepts Covered**   |
-| ----- | ------------------------------------------------ | ---------------------- |
-| 45    | Email validation and CLI-based signup            | Regex, validation      |
-| 46    | Fetch data from OpenWeather API                  | API calls, `requests`  |
-| 47    | Expense tracker with monthly summary             | File, classes, summary |
-| 48    | Convert `.csv` sales to JSON report              | Pandas + JSON          |
-| 49    | CLI Tool: Merge 2 files line-by-line             | File reading           |
-| 50    | Create a quiz app with score and levels          | OOP, state mgmt        |
-| 51    | Income predictor using regression                | `sklearn`, pandas      |
-| 52    | Sentiment analysis on product reviews            | NLP, `TextBlob`        |
-| 53    | Income tax calculator CLI tool                   | Slabs, conditions      |
-| 54    | Build a fully OOP invoice system for freelancers | Classes, session state |
+| #  | Problem Description                            | Concepts Covered             | Status    |
+| -- | ---------------------------------------------- | ---------------------------- | --------- |
+| 1  | Generate invoice with tax & discount           | OOP, dict, formatting        | ✅ Done    |
+| 2  | Hangman game (word bank, guesses, life system) | CLI game logic               | ✅ Done    |
+| 3  | HandCricket game: toss → innings → result      | Game loop, CLI               | ✅ Done    |
+| 4  | Scientific calculator with logs to file        | Math ops, error handling     | ✅ Done    |
+| 5  | BMI calculator with logs to file               | File append, math            | ❌ Not Yet |
+| 6  | Transaction logger with daily summary          | File I/O, string format      | ❌ Not Yet |
+| 7  | Regex password strength checker                | `re` module, validation      | ❌ Not Yet |
+| 8  | Read/write contact book to text file           | `file open()`, dict parsing  | ❌ Not Yet |
+| 9  | Clean CSV, fill missing values                 | `pandas`, `fillna`, `dropna` | ❌ Not Yet |
+| 10 | Read JSON, update values, and save             | `json` module, I/O           | ❌ Not Yet |
+| 11 | Replace all duplicate chars with `#`           | 2-pointer, greedy            | ✅ Done    |
+| 12 | Analyze a list of numbers (mean, median, etc.) | List, built-in functions     | ✅ Done    |
+| 13 | Sort top 5 earners from `.csv` file            | `pandas`, `sort_values()`    | ❌ Not Yet |
+| 14 | Exhaustive Search for minima of a function     | Math, plotting (optional)    | ✅ Done    |
+
+---
+
+## LEVEL 4 – APIs, Analytics & Mini Projects *(Advanced)*
+
+> *Focus:* External libraries, APIs, modular OOP, basic ML/NLP
+
+| #  | Problem Description                             | Concepts Covered             | Status    |
+| -- | ----------------------------------------------- | ---------------------------- | --------- |
+| 1  | Email validator + CLI signup system             | Regex, CLI, validation       | ❌ Not Yet |
+| 2  | Fetch weather data from OpenWeather API         | API calls, `requests`, JSON  | ❌ Not Yet |
+| 3  | Expense tracker with monthly summary            | OOP, file, CLI tools         | ❌ Not Yet |
+| 4  | Convert sales CSV to JSON report                | `pandas`, JSON, export       | ❌ Not Yet |
+| 5  | CLI tool to merge 2 files line-by-line          | File reading, logic          | ❌ Not Yet |
+| 6  | Create a quiz app with score and levels         | OOP, state, CLI              | ❌ Not Yet |
+| 7  | Income predictor using Linear Regression        | `sklearn`, data prep         | ❌ Not Yet |
+| 8  | Sentiment analysis on product reviews           | `TextBlob`, `nltk`           | ❌ Not Yet |
+| 9  | Income tax calculator (slabs + surcharge logic) | Conditions, formatting       | ❌ Not Yet |
+| 10 | Full OOP invoice system with session state      | `OOP`, `Streamlit`, UI logic | ❌ Not Yet |
 
 ---
 
