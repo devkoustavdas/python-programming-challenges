@@ -59,6 +59,7 @@ Python Documentation: [https://docs.python.org/3/](https://docs.python.org/3/)
 | 13 | Validate random password rules                       | Conditions, loop           | ❌ Not Yet |
 | 14 | Quick math game (timer & scoring)                    | Game logic, random         | ✅ Done    |
 | 15 | Analyze Sales Numbers using `pandas`                 | `pandas`, summarization    | ✅ Done    |
+| 16 | Expenses Split Calculator with distributed amounts   | Math, rounding, functions  | ✅ Done    |
 
 ---
 
