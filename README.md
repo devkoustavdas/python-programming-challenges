@@ -1,14 +1,20 @@
 # Python Programming Challenge Repository (Beginner → Advanced)
 
-Welcome to a curated roadmap of Python coding exercises designed to take you from *beginner* to *advanced*, one challenge at a time.
+Welcome to a curated roadmap of Python coding exercises designed to take you from *beginner* to *advanced*, one challenge at a time. This repository is built around Jupyter Notebooks for interactive learning.
 Python Documentation: [https://docs.python.org/3/](https://docs.python.org/3/)
 
 **Who is this for?**
+- Students looking to *level up* their core Python
+- Developers practicing for *coding or analyst interviews*
+- Bootcampers building *project portfolios*
+- Anyone who wants to improve in a **structured, concept-rich way**
 
-* Students looking to *level up* their core Python
-* Developers practicing for *coding or analyst interviews*
-* Bootcampers building *project portfolios*
-* Anyone who wants to improve in a **structured, concept-rich way**
+This repository offers a focused deep-dive into critical areas of Python programming:
+- Data Structures & Algorithms
+- Object-Oriented Programming (OOP)
+- File Handling & Date/Time Operations
+- Statistical Analysis & Data Manipulation (Pandas, NumPy)
+- List Comprehensions & Functional Programming
 
 ---
 
@@ -132,3 +138,7 @@ Python Documentation: [https://docs.python.org/3/](https://docs.python.org/3/)
 * Want to add more problems?
 * Found a bug in a solution?
 * Submit a Pull Request 🚀
+
+---
+
+<h3 align='center'>Happy Coding</h3>
