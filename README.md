@@ -35,6 +35,7 @@ Python Documentation: [https://docs.python.org/3/](https://docs.python.org/3/)
 | 15 | Calculate LCM & HCF of two numbers                   | Math, GCD, loops         | ✅ Done    |
 | 16 | Simulate robot movement in 2D plane with directions  | Tuples, `abs()`, loop    | ✅ Done    |
 | 17 | Run-Length Encoder (Convert aaabbccc → a3b2c3)       | String compression, logic| ✅ Done    |
+| 18 | Calculate BMI for adults                             | Raise Error, Docstrings  | ✅ Done    |
 
 ---
 
