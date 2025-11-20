@@ -1,6 +1,6 @@
 # Python Programming Challenge Repository (Beginner → Advanced)
 
-Welcome to a curated roadmap of Python exercises designed to take you from *beginner* to *advanced*, one challenge at a time.
+Welcome to a curated roadmap of Python coding exercises designed to take you from *beginner* to *advanced*, one challenge at a time.
 Python Documentation: [https://docs.python.org/3/](https://docs.python.org/3/)
 
 **Who is this for?**
