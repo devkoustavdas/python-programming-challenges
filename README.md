@@ -87,7 +87,7 @@ This repository offers a focused deep-dive into critical areas of Python program
 | 9  | Clean CSV, fill missing values                 | `pandas`, `fillna`, `dropna` | ❌ Not Yet |
 | 10 | Read JSON, update values, and save             | `json` module, I/O           | ❌ Not Yet |
 | 11 | Replace all duplicate chars with `#`           | 2-pointer, greedy            | ✅ Done    |
-| 12 | Analyze a list of numbers (mean, median, etc.) | List, built-in functions     | ✅ Done    |
+| 12 | Statistical Analysis of a list of numbers      | List, Filter, Sort, Statistics | ✅ Done    |
 | 13 | Sort top 5 earners from `.csv` file            | `pandas`, `sort_values()`    | ❌ Not Yet |
 | 14 | Exhaustive Search for minima of a function     | Math, plotting (optional)    | ✅ Done    |
 
