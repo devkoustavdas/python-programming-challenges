@@ -57,7 +57,7 @@ This repository offers a focused deep-dive into critical areas of Python program
 | 4  | Rock-paper-scissors CLI game                         | CLI loop, random choice    | ❌ Not Yet |
 | 5  | Grocery billing with discounts + receipt generator   | Loops, dict, formatting    | ❌ Not Yet |
 | 6  | Contact book (add/search/delete)                     | Dict of dicts, CLI menu    | ✅ Done    |
-| 7  | Hotel room booking simulation                        | OOP, methods               | ✅ Done    |
+| 7  | Hotel room booking simulation                        | OOP, static method, date handling | ✅ Done    |
 | 8  | Replace words in paragraph                           | `.replace()`, string logic | ❌ Not Yet |
 | 9  | Bank Account class with deposit, withdraw, PIN check | OOP (encapsulation)        | ✅ Done    |
 | 10 | Frequency plot of letters in a sentence              | ASCII art, count, loop     | ❌ Not Yet |
@@ -79,7 +79,7 @@ This repository offers a focused deep-dive into critical areas of Python program
 | 1  | Generate invoice with tax & discount           | OOP, dict, formatting        | ✅ Done    |
 | 2  | Hangman game (word bank, guesses, life system) | CLI game logic               | ✅ Done    |
 | 3  | HandCricket game: toss → innings → result      | Game loop, CLI               | ✅ Done    |
-| 4  | Scientific calculator with logs to file        | Math ops, error handling     | ✅ Done    |
+| 4  | Scientific calculator with logs to file        | Math ops, Error handling, File Handling | ✅ Done    |
 | 5  | BMI calculator with logs to file               | File append, math            | ❌ Not Yet |
 | 6  | Transaction logger with daily summary          | File I/O, string format      | ❌ Not Yet |
 | 7  | Regex password strength checker                | `re` module, validation      | ❌ Not Yet |
@@ -112,12 +112,16 @@ This repository offers a focused deep-dive into critical areas of Python program
 
 ---
 
-### How to Use this Repo
+### How to Use This Repository
 
-* Pick a **level based on your comfort**
-* Each folder contains a Python file + README
-* **Try it yourself before seeing solution**
-* Fork & submit your PR to add your own variant!
+* Choose a **difficulty level** you're comfortable with. *(Currently, there are 3 levels – more coming soon!)*
+* Each level folder contains **Jupyter Notebooks** numbered as per the README.
+* Every notebook includes a **real-world coding problem**, followed by its solution.
+  **Try solving the problem yourself before peeking at the solution.**
+* The problems are **mini Python projects** designed to mimic real-world use cases you might encounter during interviews, freelancing, or product development.
+* The `Assets/` folder contains all necessary input datasets and output/reference files.
+* You’ll find **open Issues** with additional problem suggestions — feel free to attempt them!
+* **Fork this repo and raise a PR** to add your own problem variants or improvements!
 
 ### Keywords
 
