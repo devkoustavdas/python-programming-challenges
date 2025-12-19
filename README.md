@@ -67,6 +67,7 @@ This repository offers a focused deep-dive into critical areas of Python program
 | 14 | Quick math game (timer & scoring)                    | Game logic, random         | ✅ Done    |
 | 15 | Analyze Sales Numbers using `pandas`                 | `pandas`, summarization    | ✅ Done    |
 | 16 | Expenses Split Calculator with distributed amounts   | Math, rounding, functions  | ✅ Done    |
+| 17 | Find 1st and 2nd Derivative and their Plots          | Math, Matplotlib           | ✅ Done    |
 
 ---
 
