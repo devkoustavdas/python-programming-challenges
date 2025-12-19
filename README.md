@@ -90,6 +90,7 @@ This repository offers a focused deep-dive into critical areas of Python program
 | 12 | Statistical Analysis of a list of numbers      | List, Filter, Sort, Statistics | ✅ Done    |
 | 13 | Sort top 5 earners from `.csv` file            | `pandas`, `sort_values()`    | ❌ Not Yet |
 | 14 | Exhaustive Search for minima of a function     | Math, plotting (optional)    | ✅ Done    |
+| 15 | Crop Planner from JSON                         | JSON, String, List           | ✅ Done    |
 
 ---
 
