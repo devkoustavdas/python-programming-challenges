@@ -61,7 +61,7 @@ This repository offers a focused deep-dive into critical areas of Python program
 | 8  | Replace words in paragraph                           | `.replace()`, string logic | ❌ Not Yet |
 | 9  | Bank Account class with deposit, withdraw, PIN check | OOP (encapsulation)        | ✅ Done    |
 | 10 | Frequency plot of letters in a sentence              | ASCII art, count, loop     | ❌ Not Yet |
-| 11 | Recursive Fibonacci generator                        | `recursion`, math          | ❌ Not Yet |
+| 11 | Student Marks Analyzer                               |           | ✅ Done    |
 | 12 | Build a mini-dictionary CLI tool                     | Dict, file I/O             | ❌ Not Yet |
 | 13 | Validate random password rules                       | Conditions, loop           | ❌ Not Yet |
 | 14 | Quick math game (timer & scoring)                    | Game logic, random         | ✅ Done    |
@@ -69,6 +69,7 @@ This repository offers a focused deep-dive into critical areas of Python program
 | 16 | Expenses Split Calculator with distributed amounts   | Math, rounding, functions  | ✅ Done    |
 | 17 | Find 1st and 2nd Derivative and their Plots          | Math, Matplotlib           | ✅ Done    |
 | 18 | Golden Section Search Method to find Minima          | Math, Matplotlib           | ✅ Done    |
+| 19 | Reproducible Student Score Analyser       | Dataframe           | ✅ Done    |
 
 ---
 
