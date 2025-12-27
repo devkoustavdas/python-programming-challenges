@@ -69,7 +69,7 @@ This repository offers a focused deep-dive into critical areas of Python program
 | 16 | Expenses Split Calculator with distributed amounts   | Math, rounding, functions  | ✅ Done    |
 | 17 | Find 1st and 2nd Derivative and their Plots          | Math, Matplotlib           | ✅ Done    |
 | 18 | Golden Section Search Method to find Minima          | Math, Matplotlib           | ✅ Done    |
-| 19 | Reproducible Student Score Analyser       | Dataframe           | ✅ Done    |
+| 19 | Reproducible Student Score Analyser                  | Dataframe           | ✅ Done    |
 
 ---
 
